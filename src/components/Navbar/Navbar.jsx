@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Navbar.css'
 const Navbar = () => {
   return (
    <div className="n-wrapper">
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li>Testimonial</li>
             </ul>
         </div>
-        <button className="button">
+        <button className="button n-button">
             Contact us
         </button>
     </div>
